@@ -96,16 +96,11 @@ body * {
     left: 0;
     z-index: 1;    
     transform: translateY(-50%);
-
-    animation: slide-out 0.4s forwards; 
 }
 
 .light #switch button {
-    animation: slide-in 0.4s forwards;
-}
-
-#switch button:hover {
-    outline: 8px solid var(--highlight-color);
+    animation: slide-in 0.4s;
+ 
 }
 
 #switch span {
@@ -195,17 +190,8 @@ ul li a {
         left: 0%;
        }
          to{
-            left: 50%;
+            right: 50%;
          }
-    }
-
-    @keyframes slide-out {
-        from{
-            left: 50%;
-        }
-        to{
-            left: 0%;
-        }
     }
 
 
