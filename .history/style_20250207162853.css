@@ -1,0 +1,33 @@
+body {
+    /*
+    background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+*/
+
+/*background: color image repeat position/size */
+background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * { 
+
+    .inter-<uniquifier> {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }}
+
+#container {
+    width: 360px;
+    border: 1px solid red;
+    margin: auto;
+} 
+
+#profile img {
+    width: 112px;
+    display: block;
+    margin: auto;
+
+}
