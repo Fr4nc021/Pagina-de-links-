@@ -32,7 +32,21 @@ body {
 background: var(--bg-light-desktop) no-repeat top center/cover;
 
 color: var(--text-color);
+
+body {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s infinite alternate;
+  }
 }
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
 
 body * { 
         font-family: "Inter", sans-serif;
